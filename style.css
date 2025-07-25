@@ -1,10 +1,8 @@
-/* Início do style.css corrigido para PaganiP1 */
-
 #controller {
   position: relative;
   width: 100%;
   height: auto;
-  background: url('https://raw.githubusercontent.com/Paganip1/Controle-Pagani/main/controller_base.png') no-repeat center;
+  background: url('https://raw.githubusercontent.com/Paganip1/Controle-Pagani-2/main/controller_base.png') no-repeat center;
   background-size: contain;
 }
 
@@ -14,16 +12,14 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: url('https://raw.githubusercontent.com/Paganip1/Controle-Pagani/main/buttons.png') no-repeat center;
+  background: url('https://raw.githubusercontent.com/Paganip1/Controle-Pagani-2/main/buttons.png') no-repeat center;
   background-size: contain;
   pointer-events: none;
 }
 
-/* Exemplo de efeito nos botões ABXY */
 .button-red { filter: brightness(1.2) drop-shadow(0 0 5px red); }
 .button-white { filter: brightness(1.5); }
 
-/* Estilo para o botão Xbox central */
 #xbox-button {
   font-family: 'Arial Black', sans-serif;
   color: white;
@@ -31,7 +27,6 @@
   text-shadow: 0 0 2px #B0292D;
 }
 
-/* Efeitos metálicos nos sticks e triggers */
 .stick, .trigger {
   filter: brightness(1.1) contrast(1.2);
   mix-blend-mode: overlay;
